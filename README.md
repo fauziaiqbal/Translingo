@@ -184,6 +184,5 @@ on cmd goto backend folder by running
 IF ERRORS STILL OCCUR AND THESE STEPS DOESN'T FIX IT I AM REALLY SORRY, 
 
 ## Support / Contact
-If you run into unresolved issues, contact:
-- Email: fauziaiqbal.018@gmail.com  
-- WhatsApp: +92 321 4796769
+If you run into unresolved issues, and For inquiries related to the project, you can reach me via email:
+📧 **fauziaiqbal.018@gmail.com**
