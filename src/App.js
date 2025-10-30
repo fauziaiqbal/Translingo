@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { FaMicrophone, FaVolumeUp, FaGlobe } from "react-icons/fa";
 
 
@@ -270,17 +270,16 @@ export default function App() {
                                 onChange={(e) => setTarget(e.target.value)}
                                 style={styles.select}
                             >
-                                <option value="hi">Hindi</option>
-                                <option value="ur">Urdu</option>
+                                <option value="hi">Hindi</option>                              
                                 <option value="en">English</option>
                                 <option value="fr">French</option>
                                 <option value="es">Spanish</option>
                                 <option value="ja">Japanese</option>
+                                <option value="tr">Turkish</option>
+                                <option value="de">German</option>
+                                <option value="nl">Dutch</option>
                                 <option value="ko">Korean</option>
-                                <option value="ar">Arabic</option>
-                                <option value="fa">Persian</option>
                                 <option value="ru">Russian</option>
-                                <option value="el">Greek</option>
                                 <option value="la">Latin</option>
                                 <option value="zh-CN">Chinese</option>
                             </select>
@@ -363,12 +362,11 @@ export default function App() {
                                 • Use short lines for better translation accuracy. <br />
                                 • Keep background noise low when using the microphone. <br />
                                 • Check that your microphone permission is enabled. <br />
-                                • Don’t write Romanized text — the AI it as English. not the language you want.{" "}
+                                • Don’t write Romanized text — the AI detects it as English. not the language you want.{" "}
                                 <br />
                                 <br />
                                 Note: <br />
-                                • Only 13 languages available currently. <br />
-                                • Voice not available for Urdu, Persian, and Arabic.
+                                • Only 12 languages are available currently. <br />
                             </div>
                         </div>
                     </div>
