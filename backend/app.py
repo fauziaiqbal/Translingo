@@ -92,18 +92,17 @@ def clean_hinglish(itrans_text: str) -> str:
 # -------------------------
 LANG_MAP = {
     'english': 'en', 'en': 'en',
-    'urdu': 'ur', 'ur': 'ur',
     'hindi': 'hi', 'hi': 'hi',
     'japanese': 'ja', 'ja': 'ja',
     'korean': 'ko', 'ko': 'ko',
     'spanish': 'es', 'es': 'es',
     'french': 'fr', 'fr': 'fr',
+    'turkish': 'tr', 'tr': 'tr',
+    'Dutch': 'nl', 'nl': 'nl',
+    'german': 'de', 'de': 'de',
     'russian': 'ru', 'ru': 'ru',
-    'arabic': 'ar', 'ar': 'ar',
-    'persian': 'fa', 'fa': 'fa', 'farsi': 'fa',
     'italian': 'it', 'it': 'it',
     'chinese': 'zh-CN', 'zh': 'zh-CN', 'zh-cn': 'zh-CN', 'zh-tw': 'zh-TW',
-    'greek': 'el', 'el': 'el',
     'latin': 'la', 'la': 'la',
     # 'cyrillic' is not a language; map to 'ru' as a practical proxy where needed
     'cyrillic': 'ru', 'sr': 'sr'
