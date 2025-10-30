@@ -174,7 +174,29 @@ goto nodejs.org and download Node.js (LTS) complete the installation and then mo
 npm install
 ```
 this time it should work
+* **git error**
+  run Run:
+```bash
+git --version
+```
+  If you get “git is not recognized as an internal or external command”, Git isn’t actually installed on you computer. 
+Go to the official site — [https://git-scm.com/download/win](https://git-scm.com/download/win)
+   (Don’t grab it from shady “software download” sites unless you *enjoy* malware.)
+2. The installer will download automatically. Run the `.exe` file.
+3. Follow the setup wizard:
+   * **Choose editor:** pick *Visual Studio Code* if you have it, otherwise *Vim* or *Notepad++*.
+   * **Adjust PATH:** pick *“Git from the command line and also from 3rd-party software.”* This makes `git` work in CMD, PowerShell, and everywhere else.
+   * **Line endings:** choose *“Checkout Windows-style, commit Unix-style.”*
+   * Leave other options as defaults.
+4. Finish and reboot.
 
+Now test it:
+
+```bash
+git --version
+```
+
+If you see something like `git version 2.47.0`, this means that git is successfully installed on your computer.
 * **Backend crashes on startup**
   Read the Python traceback. Common causes: missing package, wrong Python version, or syntax errors. Install packages, or run `python --version` to confirm.
 ### a. Go into backend folder
