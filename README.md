@@ -29,7 +29,7 @@ translator-app/
 4. cd Desktop\translator-app\frontend && yarn install && yarn start
 
 ## Explaination
-### 1. Clone the project
+### 1. Clone the project (not required if u downloaded ZIP) 
 Press **Win+R**, type `cmd` and press Enter. In the command prompt run:
 
 ```bash
@@ -44,7 +44,7 @@ cd translator-app
 In the same cmd window:
 
 ```bash
-cd backend
+cd  desktop\translator-app\backend
 ```
 
 ### b. Create a virtual environment 
@@ -74,12 +74,10 @@ If they use PowerShell instead, they can run:
 ### d. Install backend dependencies
 
 Make sure `requirements.txt` exists in the backend folder. Typical contents:
-
-(required libraries, don't run this one)
-
+ Run
 ```
-Flask
-Flask-Cors
+pip install Flask
+pip install Flask-Cors
 ```
 
 Then run (Run this command inside the backend folder. u can use cd function to get into that folder, if errors occurs goto step 5 and fix your errors):
@@ -128,12 +126,21 @@ yarn install
 ```
 
 If `yarn` isn’t installed, you need to install Node.js (LTS) from nodejs.org.
-then run 
+then run in another bash window(cmd) 
 
 ```bash
 npm install -g yarn
+yarn install
+npm install yarn
 yarn -v
 ```
+
+Then go back to previous cmd window and type 
+```bash
+yarn install
+yarn start
+```
+
 if yarn -v worked this means that yarn is succesfully installed.
 
 ### d. Start the React dev server
