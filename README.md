@@ -7,7 +7,7 @@ translator-app/
       ├── backend/
       │      ├── app.py
       │      └── requirements.txt
-      └── translator-ui(or frontend)/ 
+      └── frontend/ 
              ├── src/App.js    
              ├── build    
              ├── public    
@@ -23,7 +23,7 @@ translator-app/
 
 ## Simple Steps Break down:
 ### How to Run
-1. Clone repo
+1. Clone repo (method below)
 2. cd backend && pip install -r requirements.txt && python app.py
 3. cd frontend && yarn install && yarn start
 
@@ -113,7 +113,7 @@ Press **Win+R**, type `cmd` again, or open a new terminal tab.
 ### b. Go into frontend folder
 
 ```bash
-cd path\to\translator-app\frontend
+cd translator-app\frontend
 ```
 
 (If you’re already in the repo root, `cd ../frontend` from backend.)
@@ -123,39 +123,27 @@ if error occurs move to step 5
 ### c. Install frontend dependencies
 
 ```bash
-npm install
+yarn install
 ```
 
-If `npm` isn’t installed, they need to install Node.js (LTS) from nodejs.org.
+If `yarn` isn’t installed, you need to install Node.js (LTS) from nodejs.org.
+then run 
+
+```bash
+npm install -g yarn
+yarn -v
+```
+if yarn -v worked this means that yarn is succesfully installed.
 
 ### d. Start the React dev server
 
 ```bash
-npm start
+yarn start
 ```
 
 React will usually start at `http://localhost:3000`.
 
-
-## 4. Helpful Windows one-click: run_project.bat
-
-Open notepad and type:
-
-```bat
-@echo off
-title Translator App - Backend
-start cmd /k "cd /d %~dp0backend && venv\Scripts\activate && python app.py"
-timeout /t 1 >nul
-title Translator App - Frontend
-start cmd /k "cd /d %~dp0frontend && npm start"
-exit
-```
-
-save this as run_project.bat or whatever you like but remove .txt extension.
-
-This will open two windows: one for Flask, one for React. (If It Doesn't Work Then Leave It)
-
-## 5. Common issues & fixes 
+## 4. Common issues & fixes 
 
 * **error using cd**
   Ensure that while trying to open a specific folder on cmd write
@@ -164,7 +152,7 @@ This will open two windows: one for Flask, one for React. (If It Doesn't Work Th
   ```bash
   cd folderpath
   ```
-
+(here folderpath is the location of your files, arrange them in order as shown before steps)
 to know the folder path right click on the folder you want to open and click on properties it will show you the file path for example my flask-backend (app.py) is at 'C:\Users\HP\Desktop\translator-app' from properties then you should run 
  ```bash
 cd  C:\Users\HP\Desktop\translator-app
@@ -183,7 +171,7 @@ this will open app.py on my cmd window
   ```bash
   npm install
   ```
-* **npm error while installing**
+* **yarn error while installing**
   if error occurs when you run this
   
 ```bash
@@ -194,6 +182,7 @@ goto nodejs.org and download Node.js (LTS) complete the installation and then mo
 
 ```bash
 npm install
+npm install -g yarn
 ```
 this time it should work
 * **git error**
@@ -203,7 +192,7 @@ git --version
 ```
   If you get “git is not recognized as an internal or external command”, Git isn’t actually installed on you computer. 
 Go to the official site — [https://git-scm.com/download/win](https://git-scm.com/download/win)
-   (Don’t grab it from shady “software download” sites unless you *enjoy* malware.)
+1. (Don’t grab it from shady “software download” sites it can be malware.)
 2. The installer will download automatically. Run the `.exe` file.
 3. Follow the setup wizard:
    * **Choose editor:** pick *Visual Studio Code* if you have it, otherwise *Vim* or *Notepad++*.
