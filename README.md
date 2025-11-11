@@ -25,7 +25,7 @@ translator-app/
 ### How to Run
 1. Download this repo zip file by clicking on the green button on top right saying <>code. A drop down will occour now click on Download ZIP. Then extract on desktop and arrange the files as shown above.
 2. Install python and pip. 
-3. cd Desktop\translator-app\backend && pip install -r requirements.txt && python app.py
+3. cd Desktop\translator-app\backend && pip install -r requirements.txt (if it says something like no module named [package name] run pip install [package name] && python app.py
 4. cd Desktop\translator-app\frontend && yarn install && yarn start
 
 ## Explaination
