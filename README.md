@@ -20,8 +20,14 @@ translator-app/
 # STEP BY STEP INSTRUCTIONS ON HOW TO RUN:
 (if errors occur, goto the end to step 5 some common issues are listed there)
 
-### 1. Clone the project
+## Simple Steps Break down:
+### How to Run
+1. Clone repo
+2. cd backend && pip install -r requirements.txt && python app.py
+3. cd frontend && yarn install && yarn start
 
+## Explaination
+### 1. Clone the project
 Press **Win+R**, type `cmd` and press Enter. In the command prompt run:
 
 ```bash
@@ -223,11 +229,4 @@ IF ERRORS STILL OCCUR AND THESE STEPS DOESN'T FIX IT I AM REALLY SORRY,
 
 ## Support / Contact
 If you run into unresolved issues, and For inquiries related to the project, you can reach me via email:
-
-## Simple Steps Break down:
-# How to Run
-1. Clone repo
-2. cd backend && pip install -r requirements.txt && python app.py
-3. cd frontend && yarn install && yarn start
-
    📧 **fauziaiqbal.018@gmail.com**
