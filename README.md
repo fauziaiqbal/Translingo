@@ -19,7 +19,7 @@ translator-app/
              └── yarn.lock
 ```
 # STEP BY STEP INSTRUCTIONS ON HOW TO RUN:
-(if errors occur, goto the end to step 5 some common issues are listed there)
+(if errors occur, goto the end to step 4 some common issues are listed there)
 
 ## Simple Steps Break down:
 ### How to Run
