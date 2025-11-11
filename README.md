@@ -1,6 +1,21 @@
 # Translingo
 **Translingo** is an AI-powered language translation web app developed for the **WAICY 2025** competition. It uses a **Flask (Python)** backend and a **React (JavaScript)** frontend to detect the language of any given text and translate it into a user-selected language in real time. The system demonstrates how artificial intelligence can bridge global communication barriers by applying natural language processing (NLP) techniques for language detection and translation. When a user inputs text, the frontend sends it to the backend API, which processes it using AI-based language models and returns both the detected source language and its accurate translation. Designed for accessibility, speed, and cross-platform compatibility, Translingo showcases the practical use of AI in breaking linguistic boundaries and promoting inclusive communication across diverse communities.
 
+Folder structure
+translator-app/
+├── backend/
+│   ├── app.py
+│   └── requirements.txt
+└── translator-ui(or frontend)/
+    ├── src/App.js
+    ├── build
+    ├── public
+    ├── .env.development
+    ├── .gitignore
+    ├── package.json
+    ├── README.md
+    ├── package-lock.json
+    └── yarn.lock
 
 # STEP BY STEP INSTRUCTIONS ON HOW TO RUN:
 (if errors occur, goto the end to step 5 some common issues are listed there)
@@ -208,4 +223,11 @@ IF ERRORS STILL OCCUR AND THESE STEPS DOESN'T FIX IT I AM REALLY SORRY,
 
 ## Support / Contact
 If you run into unresolved issues, and For inquiries related to the project, you can reach me via email:
-📧 **fauziaiqbal.018@gmail.com**
+
+## Simple Steps Break down:
+# How to Run
+1. Clone repo
+2. cd backend && pip install -r requirements.txt && python app.py
+3. cd frontend && yarn install && yarn start
+
+   📧 **fauziaiqbal.018@gmail.com**
