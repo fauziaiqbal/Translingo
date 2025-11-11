@@ -21,6 +21,8 @@ translator-app/
 # STEP BY STEP INSTRUCTIONS ON HOW TO RUN:
 (if errors occur, goto the end to step 4 some common issues are listed there)
 
+Use google chrome to run the program. 
+
 ## Simple Steps Break down:
 ### How to Run
 1. Download this repo zip file by clicking on the green button on top right saying <>code. A drop down will occour now click on Download ZIP. Then extract on desktop and arrange the files as shown above.
