@@ -129,6 +129,7 @@ If `yarn` isn’t installed, you need to install Node.js (LTS) from nodejs.org.
 then run in another bash window(cmd) 
 
 ```bash
+pip install npm
 npm install -g yarn
 yarn install
 npm install yarn
