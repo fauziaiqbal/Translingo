@@ -6,29 +6,17 @@ Folder structure
 translator-app/
 
 ├── backend/
-
 │            ├── app.py
-
 │            └── requirements.txt
-
-└── translator-ui(or frontend)/
-  
-             ├── src/App.js
-    
-             ├── build
-    
-             ├── public
-    
-             ├── .env.development
-    
-             ├── .gitignore
-    
-             ├── package.json
-    
-             ├── README.md
-    
-             ├── package-lock.json
-    
+└── translator-ui(or frontend)/ 
+             ├── src/App.js    
+             ├── build    
+             ├── public    
+             ├── .env.development    
+             ├── .gitignore    
+             ├── package.json    
+             ├── README.md    
+             ├── package-lock.json    
              └── yarn.lock
 
 # STEP BY STEP INSTRUCTIONS ON HOW TO RUN:
